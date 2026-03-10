@@ -1,41 +1,77 @@
-![Buscante](thumbnail.png)
+# 📚 Buscante - Book Search App
 
-# Buscante
+Buscante is a web application that allows users to search and discover books using the Google Books API.  
+The project demonstrates how to build a dynamic search interface and display book information retrieved from an external API.
 
-Aplicação que permite pesquisar e descobrir livros utilizando a API do Google Books. 
+## API
 
-## 🔨 Funcionalidades do projeto
+This project consumes data from the Google Books API:
 
-### Pesquisa de Livros:
+https://developers.google.com/books
 
-As pessoas podem inserir palavras-chave na barra de pesquisa para buscar livros de forma dinâmica.
+---
 
-### Detalhes do Livro:
+# 🔍 Features
 
-Ao clicar em um livro específico pode-se obter mais detalhes, como título, sinopse, autoria e outras informações fornecidas pela API do Google Books.
+### Book Search
+Users can enter keywords in the search bar to dynamically search for books.
 
-### Link para ler prévia do livro:
+### Book Details
+By selecting a book, users can view additional information such as:
 
-Link com opção de ler uma prévia do livro.
+- Title
+- Author
+- Description
+- Additional metadata provided by the Google Books API
 
-## ✔️ Técnicas e tecnologias utilizadas
+### Book Preview
+Each book includes a link that allows users to read a preview when available.
 
-As técnicas e tecnologias utilizadas foram:
+---
 
-- `Angular`
-- `Google Books API`
-- `RxJs`
+# ⚙️ Technologies Used
 
-## 📁 Acesso ao projeto
+This project was built using:
 
-Você pode [acessar o código fonte do projeto inicial](https://github.com/nayannelbatista/3491-angular-a11y) ou [baixá-lo](https://github.com/nayannelbatista/3491-angular-a11y/archive/refs/heads/projeto-base.zip).
+- **Angular**
+- **RxJS**
+- **Google Books API**
+- **TypeScript**
+- **HTML / CSS**
 
-## 🛠️ Abrir e rodar o projeto
+---
 
-Para abrir e rodar o projeto, execute *npm i* para instalar as dependências e *ng serve* para iniciar o projeto.
+# 🚀 Running the Project
 
-Depois, acesse [http://localhost:4200/](url) no seu navegador. 
+To run the project locally:
 
-## 📚 Mais informações do curso
+### Install dependencies
 
-O curso visa implementar estratégias de acessibilidade para tornar o Buscante uma aplicação mais inclusiva e acessível.
+```
+npm install
+```
+
+Start the development server
+ng serve
+
+Then open your browser and go to:
+
+http://localhost:4200
+🎯 Learning Objectives
+
+This project was created to practice:
+
+Angular application structure
+
+API integration
+
+Reactive programming with RxJS
+
+Dynamic search interfaces
+
+Handling asynchronous data
+
+📄 License
+
+This project is intended for educational purposes.
+
